@@ -9,6 +9,8 @@ public class Developer {
     private double salary;
     private Experience experience;
 
+    public Developer() {
+    }
 
     public Developer(int id, String name, double salary, Experience experience) {
         this.id = id;
